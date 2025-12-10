@@ -1,1 +1,46 @@
-/* your code */
+.esports-table {
+            width: 80%; /* Sets a defined width */
+            margin: 20px auto; /* Centers the table */
+            border-collapse: collapse; /* Essential for clean borders */
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        /* Header Styling */
+        .esports-table thead th {
+            background-color: #2c3e50; /* Dark blue/grey background */
+            color: white; /* White text */
+            padding: 12px 15px;
+            text-align: left;
+            font-size: 1.1em;
+            border: 1px solid #1a242f; /* Darker border for the header */
+        }
+
+        /* Body Row Styling */
+        .esports-table tbody tr {
+            border-bottom: 1px solid #dddddd; /* Light separator between rows */
+        }
+
+        /* Data Cell Styling */
+        .esports-table tbody td {
+            padding: 10px 15px;
+            text-align: left;
+            border: 1px solid #eeeeee; /* Very light border for cells */
+        }
+
+        /* Zebra Striping for better readability */
+        .esports-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3; /* Light grey for even rows */
+        }
+
+        /* Hover Effect for interaction */
+        .esports-table tbody tr:hover {
+            background-color: #d8e6f1; /* Light blue on hover */
+            cursor: pointer;
+        }
+
+        /* Specific Styling for the 'K/D Ratio' column to highlight numerical data */
+        .esports-table tbody td:nth-child(4) {
+            font-weight: bold;
+            color: #e74c3c; /* Red color for high-impact stat */
+        }
